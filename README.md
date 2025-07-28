@@ -1,5 +1,5 @@
 
-# High-Performance Computing (HPC) Interactive Session Guide
+# HPC Interactive Session Guide on NSCA Delta GPU
 
 This guide provides instructions for launching interactive GPU sessions on the HPC cluster using SLURM's `srun` command.
 
