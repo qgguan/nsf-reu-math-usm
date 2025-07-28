@@ -1,9 +1,8 @@
-```markdown
+
 # High-Performance Computing (HPC) Interactive Session Guide
 
 This guide provides instructions for launching interactive GPU sessions on the HPC cluster using SLURM's `srun` command.
 
----
 
 ## Available Accounts
 
@@ -13,9 +12,7 @@ $ accounts
 Account           Balance (Hours)    Deposited (Hours)
 --------------  -----------------  -------------------
 beyt-delta-gpu                 48                   48
-```
 
----
 
 ## Launching Interactive GPU Sessions
 
