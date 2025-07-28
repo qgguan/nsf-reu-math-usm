@@ -12,7 +12,7 @@ $ accounts
 Account           Balance (Hours)    Deposited (Hours)
 --------------  -----------------  -------------------
 beyt-delta-gpu                 48                   48
-
+```
 
 ## Launching Interactive GPU Sessions
 
