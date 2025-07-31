@@ -49,9 +49,9 @@ $ sinfo
 | File System       | Path                        | Key Features & Purpose                                                                    |
 | :---------------- | :-------------------------- | :---------------------------------------------------------------------------------------- |
 | **HOME**          | `/u/$USER` or `$HOME`       | **Code, scripts, software environments.** Snapshots are taken daily. Small quota.          |
-| **WORK - HDD**    | `/work/hdd/<account>/$USER` | **Primary computation area.** For datasets, models, and job I/O. Large quota.              |
+| **WORK - HDD**    | `/work/hdd/<account>/$USER` | **Storage area.** For datasets, models, and job I/O. Large quota.              |
 | **WORK - NVMe**   | `/work/nvme/<account>/$USER`| **Specialist area.** Best for jobs with lots of small file read/writes. Request access.    |
-| **PROJECTS**      | `/projects/<account>`       | **Shared results & data.** For final results and collaboration with project members.         |
+| **PROJECTS**      | `/projects/<account>`       | **Computation, Shared results & data.** For final results and collaboration with project members.         |
 | **NODE LOCAL TMP**| `/tmp`                      | **Ultra-fast, temporary storage.** Data is **deleted** when your job ends.                 |
 
 ### Detailed File System Guide
