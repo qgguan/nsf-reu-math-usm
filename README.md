@@ -97,7 +97,7 @@ $ srun --account=beyt-delta-gpu --partition=gpuA100x4-interactive --nodes=1 --gp
 ```bash
 $ srun --account=beyt-delta-gpu --partition=gpuH200x8-interactive --nodes=1 --gpus-per-node=1 --tasks-per-node=1 --cpus-per-task=20 --mem=87g --time=01:00:00 --pty bash
 ```
-## Commands for an Interactive Session
+### Commands for an Interactive Session
 
 Once you have an interactive session running on a compute node (e.g., `gpub001`), use these commands.
 
