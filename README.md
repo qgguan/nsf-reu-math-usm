@@ -208,8 +208,6 @@ echo "=========================================================="
 
 
 
----
-
 ## 7. Official Documentation
 
 This guide covers common workflows, but the official NCSA documentation is the definitive source of information.
