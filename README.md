@@ -35,9 +35,14 @@ beyt-delta-gpu                 48                   48
 ```
 In this example, the account name is `beyt-delta-gpu`.
 
+### Checking System Infomation
+
+```bash
+$ sinfo
+```
 ---
 
-## 3. Critical: File System and Data Management
+## 3. File System and Data Management
 
 **Where you store your files directly impacts your job's performance.** Using the wrong location can severely slow down your computations. Delta provides several file systems, each with a specific purpose.
 
