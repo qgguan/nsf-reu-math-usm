@@ -1,4 +1,4 @@
-# HPC Guide for NCSA Delta: From Login to Large-Scale Jobs
+# HPC Guide for NCSA Delta GPU: From Login to Large-Scale Jobs
 
 This guide provides a complete workflow for students using the NCSA Delta cluster. It covers connecting to the system, managing files for optimal performance, launching interactive sessions for development, and submitting large-scale batch jobs using Slurm.
 
