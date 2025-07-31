@@ -1,4 +1,4 @@
-#!/bin/bash                         # Specifies that the script should be run in a Bash shell
+#!/bin/bash                         
 
 #SBATCH --account=beyt-delta-gpu    # Specifies the account to charge GPU usage to
 #SBATCH --job-name=GPU73125         # Sets the name of the job (useful for job monitoring)
