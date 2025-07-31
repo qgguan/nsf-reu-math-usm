@@ -122,7 +122,7 @@ For long-running, non-interactive computations, create a Slurm script and submit
 
 ### Example 1: Slurm Script for GPU check
 
-This script, named `job.slurm` provided in this repo.
+This script, named `job.slurm` is provided in this repo.
 
 ```bash
 #!/bin/bash                         
