@@ -97,7 +97,23 @@ $ srun --account=beyt-delta-gpu --partition=gpuA100x4-interactive --nodes=1 --gp
 ```bash
 $ srun --account=beyt-delta-gpu --partition=gpuH200x8-interactive --nodes=1 --gpus-per-node=1 --tasks-per-node=1 --cpus-per-task=20 --mem=87g --time=01:00:00 --pty bash
 ```
+## Commands for an Interactive Session
 
+Once you have an interactive session running on a compute node (e.g., `gpub001`), use these commands.
+
+```bash
+# Check GPU availability and status (will now work)
+$ nvidia-smi
+
+# View CPU architecture and core count
+$ lscpu
+
+# Load any necessary software modules
+$ module load anaconda3_gpu
+
+# Start an interactive Python session to test code
+$ ipython
+```
 ---
 
 ## 5. Submitting Batch Jobs (For Production Runs)
@@ -190,23 +206,7 @@ echo "=========================================================="
 
 ---
 
-## 6. Commands for an Interactive Session
 
-Once you have an interactive session running on a compute node (e.g., `gpub001`), use these commands.
-
-```bash
-# Check GPU availability and status (will now work)
-$ nvidia-smi
-
-# View CPU architecture and core count
-$ lscpu
-
-# Load any necessary software modules
-$ module load anaconda3_gpu
-
-# Start an interactive Python session to test code
-$ ipython
-```
 
 ---
 
