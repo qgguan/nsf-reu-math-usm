@@ -9,8 +9,8 @@
 #SBATCH --cpus-per-task=10          # Allocates 10 CPU cores for the task (useful for data preprocessing, etc.)
 #SBATCH --mem=16g                   # Requests 16 GB of RAM for the job
 #SBATCH --time=00:10:00             # Sets the maximum allowed runtime to 10 minutes
-#SBATCH --output=GPU73125_%j.out    # Standard output will be written to this file (%j is replaced by the job ID)
-#SBATCH --error=GPU73125_%j.err     # Standard error will be written to this file (%j is replaced by the job ID)
+#SBATCH --error=GPU73125_%j.out     # Standard error will be written to this file (%j is replaced by the job ID)
+#SBATCH --output=%x_%j.out          # Standard output will be written to this file (%j is replaced by the job ID)
 
 module reset                        # Resets the module environment to a clean state
 module load anaconda3_gpu           # Loads the Anaconda module configured for GPU usage
