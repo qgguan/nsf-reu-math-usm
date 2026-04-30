@@ -114,7 +114,7 @@ $ nvidia-smi
 $ lscpu
 
 # Load any necessary software modules
-$ module load anaconda3_gpu
+$ module load pytorch-conda/2.8
 
 # Start an interactive Python session to test code
 $ ipython
