@@ -145,7 +145,7 @@ This script, named `job.slurm`, is provided in the repo.
 #SBATCH --output=%x_%j.out          # Standard output will be written to this file (%j is replaced by the job ID)
 
 module reset                        # Resets the module environment to a clean state
-module load anaconda3_gpu           # Loads the Anaconda module configured for GPU usage
+module load pytorch-conda/2.8       # Loads the Conda module configured for GPU usage
 module list                         # Lists all currently loaded modules for logging/debugging
 
 # Launch Python code...
