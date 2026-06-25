@@ -90,17 +90,17 @@ Use `srun` for an interactive shell on a compute node. This is ideal for testing
 
 ### Case 1: A40 GPU
 ```bash
-$ srun --account=beyt-delta-gpu --partition=gpuA40x4-interactive --nodes=1 --gpus-per-node=1 --tasks-per-node=1 --cpus-per-task=10 --mem=10g --pty bash
+$ srun --account=beyt-delta-gpu --partition=gpuA40x4-interactive --nodes=1 --gpus-per-node=1 --pty bash
 ```
 
 ### Case 2: A100 GPU
 ```bash
-$ srun --account=beyt-delta-gpu --partition=gpuA100x4-interactive --nodes=1 --gpus-per-node=2 --tasks-per-node=1 --cpus-per-task=10 --mem=10g --pty bash
+$ srun --account=beyt-delta-gpu --partition=gpuA100x4-interactive --nodes=1 --gpus-per-node=1 --pty bash
 ```
 
 ### Case 3: H200 GPU
 ```bash
-$ srun --account=beyt-delta-gpu --partition=gpuH200x8-interactive --nodes=1 --gpus-per-node=1 --tasks-per-node=1 --cpus-per-task=20 --mem=80g --pty bash
+$ srun --account=beyt-delta-gpu --partition=gpuH200x8-interactive --nodes=1 --gpus-per-node=1 --pty bash
 ```
 ### Commands for an Interactive Session
 
