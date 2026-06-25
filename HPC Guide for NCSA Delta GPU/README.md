@@ -113,6 +113,9 @@ $ nvidia-smi
 # View CPU architecture and core count
 $ lscpu
 
+# Check existing software modules
+$ module av
+
 # Load any necessary software modules
 $ module load pytorch-conda/2.8
 
