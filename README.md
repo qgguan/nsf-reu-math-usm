@@ -136,6 +136,8 @@ This script, named `job.slurm`, is provided in the repo.
 #!/bin/bash                         
 
 #SBATCH --account=beyt-delta-gpu    # Specifies the account to charge GPU usage to
+#SBATCH --mail-user=name@email.com  # Specifies your email address
+#SBATCH --mail-type=BEGIN,END,FAIL  # Specifies which job events trigger an email
 #SBATCH --job-name=GPU73125         # Sets the name of the job (useful for job monitoring)
 #SBATCH --partition=gpuA40x4        # Specifies the partition/queue to submit the job to (e.g., a GPU partition with A40 GPUs)
 #SBATCH --nodes=1                   # Requests 1 node (machine)
